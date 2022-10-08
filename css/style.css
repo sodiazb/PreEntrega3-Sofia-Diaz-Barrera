@@ -1,0 +1,696 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+ h1 {
+    font-size: 3.5rem;
+    color: #FFFFFF;
+    
+}
+
+h2{
+    font-size: 2.5rem;
+    color: #197FAB;
+    margin-top: 20px;
+}
+
+h3{
+    font-size: 2rem;
+    color:rgb(18, 12, 68); 
+
+}
+
+h1,h2,h3{
+    font-family: 'Roboto', sans-serif;
+}
+
+p{
+    color: black;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin: 30px 0px;
+  
+}
+
+header{
+   background-color: rgb(25, 127, 171);
+   height: 100%;
+   margin: 20px;
+}
+
+/* las etiquetas de clase */
+
+.bg-white{
+    background: #FFFFFF;
+    box-shadow: 0px 1px 1px #c6c6c6;
+}
+
+.bg-blue{
+    background-color: rgb(25, 127, 171);
+    
+}
+
+#botonera{
+    position: sticky;
+}
+
+#botonera ul li a{
+    color: black;
+    font-size: 1.8rem;
+    margin: 0 20px;
+}
+
+#botonera ul li a:hover{
+
+        color: #197FAB;
+        font-weight: 600;
+}
+
+.valores{
+    margin: 20px;
+    justify-content: center;
+}
+
+.color{
+    color: #FFFFFF;
+    margin: 50px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.justify-content{
+    justify-content: center;
+}
+
+.align-items{
+    align-items: center;
+}
+
+
+.banner{
+    background-position: center; 
+    margin: auto;
+    margin: 12%;
+   
+}
+   .banner h3{
+    color: white;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    
+   }
+
+   .banner p{
+    color: white;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    font-size: 1.8rem;
+   }
+
+.nosotros{
+
+    display: flex;
+    flex-direction: row;
+    margin: 40px 30px; 
+    line-height: 30px;
+    
+}
+ 
+.historia{
+  
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+}
+     .historia img{
+        margin: 40px;
+        margin-right: 10px;
+    
+    }
+     .historia h3{
+       margin: 40px 20px;
+       align-items: center;
+}
+     .historia p{
+        margin: 40px 20px;
+        align-items: center;
+ }
+     
+   
+
+.white{
+        
+     color: white;
+     
+    
+     
+}
+        
+.margin{
+       
+     margin-left: 10px;
+     width: 50%;
+}
+
+.reseñas{
+    display: flex;
+    flex-direction: row;
+    margin: 30px; 
+    line-height: 30px;
+
+}
+
+.boxes{
+    box-shadow: 0px 3px 3px #c6c6c6;
+    width: 100%;
+    margin: 30px 20px;
+    text-align: center;
+    align-items: center;
+    padding: 0 10px;
+}
+
+
+
+
+.div_form--h3{
+        color: white;
+        margin-bottom: 30px;
+        margin-top: 20px;
+        
+}
+
+.contacto{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+
+.formulario{
+    margin: 20px 40px;
+    margin-top: 30px; 
+    padding: 20px;
+    box-sizing: border-box;
+    width: 600px;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+    background-color: rgb(18, 12, 68); 
+    color: #ffffff;
+
+    border-radius: 5px;  
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+        
+
+} 
+   .formulario h2{
+    margin: 20px;
+    color: #FFFFFF;
+   }
+
+.controls{
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border-color: white;
+    
+}
+
+.button{
+     
+   width: 90%;
+   background-color: rgb(25, 127, 171); 
+   border: none;
+   padding: 10px;
+   color: white;
+   margin: 10px;
+   font-size: 1.5rem;
+   border-radius: 5px;
+
+
+}
+
+
+.justify{
+    justify-content: center;
+}
+
+.videos{
+    margin: 0 20%;
+    margin-top: 10px;
+    margin-bottom:20px;
+    width: 60%;
+    justify-content: center;
+}
+
+.tutoriales{
+    margin-bottom: 50px;
+}
+
+
+
+ .boton {
+	text-decoration: none;
+	border: 1px;
+	width: 40%;
+	height:40px;
+	text-align:center;
+    justify-content: center;
+
+	margin: auto;
+    margin-top: 15px;
+	background-color:rgb(25, 127, 171);  
+	color: #ffffff;
+	border-radius: 4px;
+    font-size: 1.5rem; 
+    align-items: center;
+    display: flex;
+    }
+ 
+
+
+
+/* banner fin */
+
+.boxiconos{
+   
+	color: #ffffff;
+	transition: 2s;
+	border-radius: 4px;
+    font-size: 1rem;
+    
+    width: 90%;
+	overflow: hidden;
+	padding: 20px 30px;
+	box-sizing: border-box;
+	margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.boxiconos div{
+    margin: 0 90px;
+    
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+
+
+
+
+/* etiqueta ID */
+#productos{
+	font-size: 2.5rem;
+	text-align: center;
+	padding: 10px 0;
+	margin: 10px 0;
+	font-family: Roboto, sans-serif;
+    color: rgb(25, 127, 171);
+    gap: 20px;
+    
+}   
+
+
+#productos .galeria{
+    margin: 15px 20px;
+	justify-content: space-around;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
+    
+}
+
+
+#productos .galeria p.price{
+    color: rgb(18, 12, 68);
+    font-weight: bold;
+    padding-top: 5px;
+    font-size: 2rem;
+
+}
+
+figure{
+    box-shadow: 0px 3px 3px #c6c6c6;
+    width: 60%;
+    height: 400px; 
+    margin: 15px 20px;
+    background-color: #FFFFFF;
+}
+
+figure img{
+    width: 50%;
+}
+
+
+.caracteristicas{
+    
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+      .caracteristicas img{
+        width: 30%;
+        margin: 5px 90px;
+        align-content: center;
+    }
+
+.texto p{       
+    color: #FFFFFF;
+    margin: 30px 30px; 
+              
+}
+
+.marcas{
+    background-color: rgb(25, 127, 171);
+ 
+
+}
+
+.logos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0 20px;
+    margin: 30px 10px;
+
+}
+
+
+.aislantes{
+    padding: 20px;
+} 
+
+.descripcion{
+    margin: 60px 10px;
+    align-content: center;
+    width: 80%;
+
+}
+
+   .descripcion img{
+     margin: 20px;
+   }
+
+#preguntasfrecuentes{
+       margin: 20px 0;
+}
+
+   #preguntasfrecuentes button{
+        font-size: 2rem;
+   }
+
+.size{
+    font-size: 1.5rem;
+}
+
+/* GRID INDEX */
+.grid{
+    background-color: rgb(25, 127, 171);
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 1fr; 
+    grid-template-areas: 
+    "aislante lana text";
+}
+
+#aislante{
+     grid-area: aislante;
+}
+
+
+#lana{
+    grid-area: lana;
+}
+
+#text{
+    grid-area: text;
+}
+
+
+footer{
+    background-color: rgb(18, 12, 68);
+    
+}  
+
+/*  grid footer */
+.pie {
+    justify-content: center;
+    margin: 20px 40px;
+	display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 2fr; 
+    grid-template-areas: 
+    "logo redes newsletter";
+    
+}
+
+#logo{
+   grid-area: logo;
+}
+
+#redes{
+   grid-area: redes;
+}
+
+#newsletter{
+   grid-area: newsletter;
+}
+
+.pie_icon--sm{
+    width: 30px;
+    margin: 15px;
+    align-items: center;
+
+}
+
+.pie1{
+    margin-top: 40px;
+    margin-right: 50px;
+    margin-left: 50px;
+   
+    
+}  
+
+
+.copyright{
+    padding-bottom: 30px;
+}
+
+.newsletter {
+     margin: 20px;
+     
+}
+
+.txtb{
+    width: 100%;
+    height: 40px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    position: relative;
+    border: 0;
+}
+  .txtb input{
+    width: 100%;
+    height: 40px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    border: 0;
+    position: relative;
+    padding: 0 20px;
+    outline: none;
+    font-size: 1.5rem;
+  }
+
+  .boton2 {
+	text-decoration: none;
+	border: 0px;
+	width: 30%;
+	height:30px;
+    border-radius: 20px;
+	background-color:rgb(25, 127, 171);  
+	color: #ffffff;
+	
+    font-size: 1.3rem; 
+    position: absolute;
+    right: 7px;
+    top: 4px;
+   
+    
+    }
+
+
+
+
+/* Responsive */
+
+@media (max-width: 360px){
+  
+     .contenedor{
+    width: 100%;
+    height: 80vh;
+  
+    } 
+      .contenedor .wrap .box h1{
+        font-size: 2.5rem;
+        margin: 0 20px;
+         
+      }
+    
+
+      .contenedor .wrap .box p{
+        font-size: 1.7rem;
+        margin: 0 20px;
+      }
+
+    .boxiconos{
+      
+        flex-direction: column;
+    }
+
+        .boxiconos div{
+        
+        margin: 20px;
+        }
+
+        .boxiconos img{
+            width: 30%;
+        }
+
+  #productos .galeria{
+
+    flex-direction: column;
+    
+  } 
+
+  figure{
+    width: 80%;
+    height: 350px; 
+    margin: 15px 20px;
+  }
+    
+   
+  .reseñas{
+    width: 80%;
+    flex-direction: column;
+    margin: 10px;
+    }
+  
+
+    .logos{
+        align-items: center;
+        flex-direction: column;
+    } 
+         .logos img{
+            width: 60%;
+        }  
+    
+    .historia{
+        flex-direction: column;
+       
+    }
+
+    .margin{
+        margin: auto;
+        width: 90%;
+    }
+   
+    .nosotros{
+        flex-direction: column;
+        width: 80%;
+        margin: 10px;
+    }
+
+    .grid{
+        
+            grid-template-columns: 100vw;
+            grid-template-rows: 1fr; 
+            grid-template-areas: 
+            "aislante"
+            "lana"
+            "text";
+    }  
+
+    .descripcion{
+        align-items: center;
+    }
+       .descripcion img{
+             width: 15%;
+             margin: 10px 20px;
+       }
+
+    .aislantes img{
+        width: 90%;
+        margin: 0 20px;
+    }
+    
+    .white{
+        margin: 10px 25px;
+    }
+   
+.contacto{
+       flex-direction: column;
+       
+}  
+
+.formulario{
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 30px; 
+    padding: 10px;
+    box-sizing: border-box;
+    width: 90%;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.videos{
+    width: 90%;
+    margin: 20px;
+}
+
+.tutoriales h2{
+    margin: 10px;
+}
+
+.pie {
+   
+    grid-template-columns: 100w;
+    grid-template-rows: 1fr; 
+    grid-template-areas: 
+    "logo"
+    "redes" 
+    "newsletter";
+    
+}
+
+.copyright{
+    padding-top: 50px;
+}
+
+
+}

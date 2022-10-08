@@ -1,0 +1,40 @@
+@mixin texto ($fontsize, $interlineado, $color, $margin){
+      font-size: $fontsize;
+      line-height: $interlineado;
+      color: $color;
+      margin: $margin;
+}
+
+// p{
+//     @include texto (1.5em, 1em, black, 30px 0);
+// }
+
+@mixin encabezado ($bg-color, $height, $margin){
+    background-color: $bg-color;
+    height: $height;
+    margin: $margin;
+}
+
+// header{
+//     @include encabezado (rgb(25, 127, 171), 100%, 20px);
+// }
+
+@mixin flex ($direction, $margin, $interlineado){
+    display: flex;
+    flex-direction: $direction;
+    margin: $margin;
+    list-style: $interlineado;
+}
+
+// .reseñas{
+//     @include flex (row, 30px, 30px);
+// }
+
+
+@mixin media($breakpoint){
+    @if $breakpoint == mobile{
+        @media (max-width: 360px){
+           @content; 
+        }
+    }
+}
